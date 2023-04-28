@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./component/homePage";
-import Customers from "./component/customers";
+import CustomerContainer from "./component/customerContainer";
 
 const routes = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/Customers",
-        element: <Customers />,
+        element: <CustomerContainer />,
       },
     ],
   },
